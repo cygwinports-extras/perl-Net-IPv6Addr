@@ -1,0 +1,8 @@
+category: Perl
+requires: cygwin perl perl-Math-Base85 perl-Net-IPv6Addr
+sdesc: "Perl IPv6 address parser module"
+ldesc: "Net::IPv6Addr provides functions for parsing IPv6 addresses in
+all formats described by RFC1884.  If Math::Base85 is installed, formats
+described in RFC1924 are also valid.  It will generate 'IP6.INT.'
+strings (as described in RFC1886) if you are inclined to play with DNS
+records."
