@@ -7,19 +7,14 @@ strings (as described in RFC1886) if you are inclined to play with
 DNS records.
 
 Runtime requirements:
-  cygwin-1.5.21-1
-  perl-5.8.7-5
-  perl-Math-Base85-0.2-1
-  perl-Net-IPv4Addr-0.10-1
+  perl-5.10.0-3
+  perl-Math-Base85-0.2-2
+  perl-Net-IPv4Addr-0.10-2
 
 Build requirements:
-  cygwin-1.5.21-1
-  binutils-20060709-1
-  cygport-0.2.5-1
-  gcc-core-3.4.4-1
+  cygwin-1.5.25-7
+  cygport-0.3.9-1
   make-3.81-1
-  perl-5.8.7-5
-  perl-Module-Build-0.2801-1
 
 Canonical homepage:
   http://search.cpan.org/dist/Net-IPv6Addr/
@@ -44,18 +39,18 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-Net-IPv6Addr.sh
-  /usr/lib/perl5/vendor_perl/5.8/Net/IPv6Addr.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Net/IPv6Addr/.packlist
-  /usr/share/doc/Cygwin/perl-Net-IPv6Addr-0.2.README
+  /usr/lib/perl5/vendor_perl/5.10/Net/IPv6Addr.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Net/IPv6Addr/.packlist
   /usr/share/doc/perl-Net-IPv6Addr-0.2/ChangeLog
   /usr/share/doc/perl-Net-IPv6Addr-0.2/README
   /usr/share/man/man3/Net.IPv6Addr.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/Net-IPv6Addr.pod
 
 ------------------
 
 Port Notes:
+
+----- version 0.2-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 0.2-1 -----
 Initial release for Cygwin.
